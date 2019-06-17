@@ -13,8 +13,6 @@ class Tracks extends Component {
               return <Spinner />
             } else if (trackList.length === 0) {
               return <h3 className="text-center mb-4"> We found nothing, forgive us</h3>
-
-            
             } else {
               return (
                 <React.Fragment>
